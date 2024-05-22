@@ -19,6 +19,7 @@ document.addEventListener("scroll", () => {
     menuMobile.style.backgroundColor = "#272829d2";
     brand.style.color = "white";
     language.style.color = "white";
+    nav.style.transition = "all 200ms ease-in-out";
     navigationItem.forEach((e) => {
       e.style.color = "white";
     });
@@ -27,6 +28,7 @@ document.addEventListener("scroll", () => {
     menuMobile.style.backgroundColor = "transparent";
     brand.style.color = "black";
     language.style.color = "black";
+    nav.style.transition = "all 200ms ease-in-out";
     navigationItem.forEach((e) => {
       e.style.color = "black";
     });

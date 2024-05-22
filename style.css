@@ -252,11 +252,13 @@ section:nth-child(even) .section-main {
   overflow: hidden;
   opacity: 0.4;
   cursor: pointer;
+  transition: all 500ms ease-in-out;
 }
 
 .section-1 .section-main:nth-child(2) .section-main__item.active {
-  width: 60%;
+  flex-grow: 2;
   opacity: 100%;
+  transition: all 500ms ease-in-out;
 }
 
 .section-1 .section-main:nth-child(2) .section-main__item:last-child {
@@ -375,11 +377,13 @@ section:nth-child(even) .section-main {
   padding: 10px;
   border-bottom: 1px solid var(--white1);
   cursor: pointer;
+  transition: all 500ms ease-in-out;
 }
 
 .section-3 .section-main .section-main__item.active {
   cursor: default;
   flex-grow: 2;
+  transition: all 500ms ease-in-out;
 }
 
 .section-3 .section-main .section-main__item img {
